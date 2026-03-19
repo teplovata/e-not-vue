@@ -12,7 +12,7 @@
       <HowItWorks />
       <ForWhom />
       <Pricing />
-      <About />
+      <AboutMe />
       
       <!-- Блок призыва к действию -->
       <section class="py-16 bg-gradient-to-b from-blue-600 to-indigo-700 text-white">
