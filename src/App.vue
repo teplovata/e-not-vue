@@ -56,7 +56,7 @@ import KillerFeature from './components/KillerFeature.vue'
 import HowItWorks from './components/HowItWorks.vue'
 import ForWhom from './components/ForWhom.vue'
 import Pricing from './components/Pricing.vue'
-import About from './components/About.vue'
+import AboutMe from './components/AboutMe.vue'
 import Footer from './components/Footer.vue'
 import ContactForm from './components/ContactForm.vue'
 
