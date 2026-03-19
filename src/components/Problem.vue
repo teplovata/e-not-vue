@@ -7,7 +7,7 @@
       <div class="grid md:grid-cols-3 gap-6 mt-12">
         <div v-for="(item, index) in problems" :key="index" 
              class="bg-gray-50 p-6 rounded-xl border border-gray-100 hover:shadow-md transition">
-          <component :is="item.icon" class="text-3xl mb-3" />
+          <component :is="item.icon" class="text-3xl mb-3" :class="item.color" />
           <h3 class="text-xl font-semibold mb-2">{{ item.title }}</h3>
           <p class="text-gray-600">{{ item.desc }}</p>
         </div>
@@ -23,8 +23,23 @@
 import { ShoppingCartOutlined, ArrowRightOutlined, SmileOutlined } from '@ant-design/icons-vue'
 
 const problems = [
-  { icon: ShoppingCartOutlined, title: 'Маркетплейсы берут 20%', desc: 'Вы работаете в убыток или задираете цены.' },
-  { icon: ArrowRightOutlined, title: 'Переходы на сайты убивают конверсию', desc: 'Покупатель ушел по ссылке и не вернулся.' },
-  { icon: SmileOutlined, title: 'Свой интернет-магазин сложно продвигать', desc: 'Никто не вбивает адрес вручную.' },
+  { 
+    icon: ShoppingCartOutlined, 
+    color: 'text-red-500',
+    title: 'Маркетплейсы берут 20%', 
+    desc: 'Вы работаете в убыток или задираете цены.' 
+  },
+  { 
+    icon: ArrowRightOutlined, 
+    color: 'text-orange-500',
+    title: 'Переходы на сайты убивают конверсию', 
+    desc: 'Покупатель ушел по ссылке и не вернулся.' 
+  },
+  { 
+    icon: SmileOutlined, 
+    color: 'text-yellow-500',
+    title: 'Свой интернет-магазин сложно продвигать', 
+    desc: 'Никто не вбивает адрес вручную.' 
+  },
 ]
 </script>

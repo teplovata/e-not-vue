@@ -22,5 +22,5 @@
 </template>
 
 <script setup>
-import photo from '@/assets/your-photo.jpg' // Замените на путь к вашему фото
+import photo from '../assets/photo.jpeg' 
 </script>

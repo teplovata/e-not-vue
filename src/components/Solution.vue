@@ -14,7 +14,7 @@
           @click="$emit('showDemo')"
           class="text-blue-600 text-lg"
         >
-          <template #icon><SparklesOutlined /></template>
+          <template #icon><StarOutlined /></template>
           👉 Нажмите сюда, чтобы увидеть демо
         </a-button>
       </div>
@@ -29,7 +29,7 @@
 </template>
 
 <script setup>
-import { SparklesOutlined, ShoppingCartOutlined } from '@ant-design/icons-vue'
+import { StarOutlined, ShoppingCartOutlined } from '@ant-design/icons-vue'
 
 defineEmits(['showDemo'])
 </script>

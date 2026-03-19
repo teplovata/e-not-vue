@@ -12,11 +12,17 @@
         </div>
         <div class="bg-gray-100 p-6 rounded-2xl flex flex-col items-center justify-center">
           <div class="flex items-center space-x-4 md:space-x-8">
-            <div class="bg-white p-3 rounded-full shadow-md"><TelegramOutlined class="text-3xl text-blue-500" /></div>
+            <div class="bg-white p-3 rounded-full shadow-md">
+              <SendOutlined class="text-3xl text-blue-500" />
+            </div>
             <ArrowRightOutlined class="text-gray-400 text-xl" />
-            <div class="bg-white p-3 rounded-full shadow-md"><i class="text-3xl text-blue-600">VK</i></div>
+            <div class="bg-white p-3 rounded-full shadow-md">
+              <span class="text-2xl font-bold text-blue-600">VK</span>
+            </div>
             <ArrowRightOutlined class="text-gray-400 text-xl" />
-            <div class="bg-white p-3 rounded-full shadow-md"><MessageOutlined class="text-3xl text-blue-400" /></div>
+            <div class="bg-white p-3 rounded-full shadow-md">
+              <MessageOutlined class="text-3xl text-blue-400" />
+            </div>
           </div>
           <p class="text-sm text-gray-500 mt-4">Ваше облако e-not</p>
         </div>
@@ -26,5 +32,5 @@
 </template>
 
 <script setup>
-import { TelegramOutlined, ArrowRightOutlined, MessageOutlined } from '@ant-design/icons-vue'
+import { SendOutlined, ArrowRightOutlined, MessageOutlined } from '@ant-design/icons-vue'
 </script>
